@@ -58,7 +58,7 @@ fun LoginFormApp() {
                 value = username,
                 onValueChange = { username = it },
                 label = { Text("Username") },
-                leadingIcon = {
+                trailingIcon = {
                     Icon(
                         imageVector = Icons.Default.Email,
                         contentDescription = "Email Icon"
@@ -80,7 +80,7 @@ fun LoginFormApp() {
                 value = password,
                 onValueChange = { password = it },
                 label = { Text("Password") },
-                leadingIcon = {
+                trailingIcon = {
                     Icon(
                         imageVector = Icons.Default.Lock,
                         contentDescription = "Lock Icon"
